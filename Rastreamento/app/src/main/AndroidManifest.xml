@@ -6,8 +6,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Rastreamento de Pacientes"
+        android:icon="@mipmap/icon"
+        android:label="About Your Patient"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">

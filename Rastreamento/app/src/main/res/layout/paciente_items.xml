@@ -10,7 +10,8 @@
         android:weightSum="1">
 
         <TextView
-            android:text="Nome:"
+            android:text=" Nome:"
+            android:textColor="#000000"
             android:layout_width="52dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView12" />
@@ -27,7 +28,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Data da Internação: "
+            android:text=" Data da Internação: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView14" />
@@ -45,7 +47,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Telefone: "
+            android:text=" Telefone: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView16" />
@@ -63,7 +66,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Custo: "
+            android:text=" Custo: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView18" />
@@ -81,7 +85,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Ambulatório: "
+            android:text=" Hospital Atendido: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView20" />
@@ -99,7 +104,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Doença:"
+            android:text=" Doença:"
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView22" />
@@ -117,7 +123,8 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Sintomas: "
+            android:text=" Sintomas: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView25" />
@@ -135,8 +142,9 @@
         android:layout_height="20dp">
 
         <TextView
-            android:text="Medicação: "
-            android:layout_width="74dp"
+            android:text=" Medicação: "
+            android:textColor="#000000"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView27" />
 
@@ -154,7 +162,8 @@
         android:weightSum="1">
 
         <TextView
-            android:text="Conclusão Médica: "
+            android:text=" Conclusão Médica: "
+            android:textColor="#000000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView29" />
@@ -167,11 +176,11 @@
     </LinearLayout>
 
     <SeekBar
+        android:id="@+id/seekBar2"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="10"
-        android:progress="3"
-        android:id="@+id/seekBar2" />
+        android:max="1"
+        android:progress="1" />
 
 </LinearLayout>
