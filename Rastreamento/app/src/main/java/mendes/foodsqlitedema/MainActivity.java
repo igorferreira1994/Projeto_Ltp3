@@ -1,5 +1,7 @@
 package mendes.foodsqlitedema;
 
+//Criado por Andreza Mercya ; Bruna Cabral ; Douglas Almeida ; Eraldo Enzo; Igor Mendes;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
